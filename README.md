@@ -6,8 +6,6 @@
 [![Codeforces](https://img.shields.io/badge/Codeforces-API-1F8ACB?logo=codeforces)](https://codeforces.com/apiHelp)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-![CodeTracker Banner](https://codeforces.org/s/73673/images/codeforces-sponsored-by-ton.png)
-
 ---
 
 ## 🚀 Overview

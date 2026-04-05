@@ -30,18 +30,23 @@
 ---
 
 ## 🖼️ Preview
+
+```
 ┌─────────────────────────────────────────────────────────┐
-│ 🔍 [ Enter User ID ] [ Search ] │
+│ 🔍 [ Enter User ID ] [ Search ]                        │
 ├─────────────────────────────────────────────────────────┤
-│ 👤 User Image │
-│ Name: Aditya  │
-│ From: Delhi, India │
-│ Current Rating: 1612 (specialist) │
-│ Best Rank: 42 in Codeforces Round #927 │
-│ Last Problem Solved: 1791C - Prepend and Append │
-│ Total Solved: 347 │
-│ Tags: DP: 45, Graphs: 32, Greedy: 67 ... │
+│ 👤 User Image                                          │
+│ Name: Aditya                                           │
+│ From: Delhi, India                                     │
+│ Current Rating: 1612 (specialist)                      │
+│ Best Rank: 42 in Codeforces Round #927                 │
+│ Last Problem Solved: 1791C - Prepend and Append        │
+│ Total Solved: 347                                      │
+│ Tags: DP: 45, Graphs: 32, Greedy: 67 ...               │
 └─────────────────────────────────────────────────────────┘
+```
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -51,65 +56,75 @@
 | Styling | CSS3 (custom) |
 | API | Codeforces Official API |
 | State | React Hooks (useState, useEffect) |
-| Build Tool | Parcel / Webpack (as per setup) |
+| Build Tool | Parcel / Webpack |
 
+---
 
 ## 📦 Installation & Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/codetracker.git
 cd codetracker
-
-# Install dependencies
 npm install
-
-# Start development server
 npm start
-Make sure you have Node.js (v14+) installed.
+```
 
-🔗 API Endpoints Used
-Endpoint	Purpose
-user.info?handles=	Fetch user profile
-user.rating?handle=	Get contest history & best rank
-user.status?handle=	Retrieve submissions & solved problems
-🧠 What Makes It Special?
-✅ Smart deduplication — counts each unique problem only once
+> Make sure you have Node.js (v14+) installed.
 
-✅ Tag analytics — shows your strongest & weakest topics
+---
 
-✅ Shimmer loading — smooth UX while fetching data
+## 🔗 API Endpoints Used
 
-✅ Fully responsive — works on desktop & mobile
+| Endpoint | Purpose |
+|----------|--------|
+| user.info?handles= | Fetch user profile |
+| user.rating?handle= | Get contest history & best rank |
+| user.status?handle= | Retrieve submissions & solved problems |
 
-✅ Direct problem links — click to solve again
+---
 
-📁 Project Structure
-text
+## 🧠 What Makes It Special?
+
+- ✅ Smart deduplication — counts each unique problem only once  
+- ✅ Tag analytics — shows your strongest & weakest topics  
+- ✅ Shimmer loading — smooth UX while fetching data  
+- ✅ Fully responsive — works on desktop & mobile  
+- ✅ Direct problem links — click to solve again  
+
+---
+
+## 📁 Project Structure
+
+```
 src/
-├── Body.js           # Main logic & API calls
-├── Header.js         # Navigation bar
-├── Footer.js         # Footer with social links
-├── CartShimmer.js    # Loading skeleton UI
-├── index.js          # React entry point
-├── index.html        # Base HTML template
-└── style.css         # Custom styling
+├── Body.js
+├── Header.js
+├── Footer.js
+├── CartShimmer.js
+├── index.js
+├── index.html
+└── style.css
+```
 
-🧪 Example Usage
-Search for any valid Codeforces handle:
+---
+
+## 🧪 Example Usage
+
+```
 Aditya_86770
 tourist
 Petr
 Errichto
+```
 
-🚧 Future Improvements
-Chart.js integration for rating history graph
+---
 
-Compare two users side-by-side
+## 🚧 Future Improvements
 
-Dark mode toggle
+- Chart.js integration for rating history graph  
+- Compare two users side-by-side  
+- Dark mode toggle  
+- Export stats as PDF  
+- Solved problems calendar heatmap  
 
-Export stats as PDF
-
-Solved problems calendar heatmap
-
+---

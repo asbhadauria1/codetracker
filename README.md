@@ -83,42 +83,6 @@ npm start
 
 ---
 
-## 🧠 What Makes It Special?
-
-- ✅ Smart deduplication — counts each unique problem only once  
-- ✅ Tag analytics — shows your strongest & weakest topics  
-- ✅ Shimmer loading — smooth UX while fetching data  
-- ✅ Fully responsive — works on desktop & mobile  
-- ✅ Direct problem links — click to solve again  
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── Body.js
-├── Header.js
-├── Footer.js
-├── CartShimmer.js
-├── index.js
-├── index.html
-└── style.css
-```
-
----
-
-## 🧪 Example Usage
-
-```
-Aditya_86770
-tourist
-Petr
-Errichto
-```
-
----
-
 ## 🚧 Future Improvements
 
 - Chart.js integration for rating history graph  
